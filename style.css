@@ -1,0 +1,73 @@
+
+/*La primera es para las citas y el autor*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/*La segunda es para el button*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('imagenes/biblioteca.jpg');
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.centered-container {
+    background-color: white;
+    width: 80vw;
+    max-width: 600px;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 24px;
+    border: 6px solid black;
+}
+
+.title-container{
+    font-size: 36px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400 900;
+}
+
+button {
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(84, 84, 228);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(106, 106, 230);
+}
+
+
+
+
+
+
