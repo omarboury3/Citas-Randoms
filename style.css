@@ -40,6 +40,7 @@ body {
     flex-direction: column;
     border-radius: 24px;
     border: 6px solid black;
+    text-align: center;
 }
 
 .title-container{
@@ -66,6 +67,27 @@ button:hover {
     background-color: rgb(106, 106, 230);
 }
 
+
+
+.cita-random {
+    height: 200px;
+    width: 400px;
+    font-size: 32px;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.autor-cita {
+    font-size: 20px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+}
 
 
 

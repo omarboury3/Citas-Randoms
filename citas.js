@@ -1,4 +1,4 @@
-let citas = [
+export const citas = [
     {
       'autor': 'Albert Einstein',
       'texto': 'No poseo talentos especiales. Solo soy apasionadamente curioso.'
@@ -40,3 +40,4 @@ let citas = [
       'texto': 'Los dos días más importantes de tu vida son el día que naciste y el día que descubres por qué.'
     }
   ];
+
